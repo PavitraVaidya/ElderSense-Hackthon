@@ -38,8 +38,8 @@ pip install speechrecognition pyttsx3 pygame
 ```bash
 python app.py
 ```
-▶ Usage
-```bash
+##▶ Usage
+
 # Example voice commands
 # - Remind me to take medicine
 # - Play music
