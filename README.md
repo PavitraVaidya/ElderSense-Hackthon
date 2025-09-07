@@ -28,11 +28,5 @@ venv\Scripts\activate      # Windows
 
 # 3. Install dependencies
 pip install speechrecognition pyttsx3 pygame
-'''
 
 
-Configure Email Alerts
-Edit alert_module.py and replace your details
-SENDER_EMAIL = "your-email@gmail.com"
-SENDER_PASSWORD = "your-app-password"
-CAREGIVER_EMAIL = "caregiver-email@gmail.com"
