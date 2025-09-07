@@ -44,7 +44,7 @@ python app.py
 # - Remind me to take medicine
 # - Play music
 # - Call for help
-```
+
 ---
 
 🏗 Tech Stack
