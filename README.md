@@ -114,6 +114,6 @@ pip install -r requirements.txt
 6. Cloud Services (Optional) – AWS / GCP for notifications
 
 ---
-## License
+## 🪪License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
