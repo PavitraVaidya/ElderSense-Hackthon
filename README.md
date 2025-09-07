@@ -61,16 +61,16 @@ python app.py
 ## 🤝 Contribution
 
 ### 1. Fork the repository (on GitHub)
-# 2. Create a new branch
+2. Create a new branch
 ```bash
 git checkout -b feature-branch
 ```
-# 3. Make your changes and commit
+3. Make your changes and commit
 ```bash
 git commit -m "Added new feature"
 ```
-# 4. Push the branch
+4. Push the branch
 ```bash
 git push origin feature-branch
 ```
-# 5. Open a Pull Request (on GitHub)
+5. Open a Pull Request (on GitHub)
