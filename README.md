@@ -13,14 +13,12 @@ ElderSense is a *voice-assisted health companion* for the elderly. It helps care
 - 🗣 Friendly Interaction – Jokes, greetings, and wellness check-ins  
 
 ---
-
 ## 🛠 Installation & Setup
 
+### 1. Clone the repository
 ```bash
-###1. Clone the Repository
-```bash
+# Clone the repository
 git clone https://github.com/your-username/ElderSense.git
 cd ElderSense
-
 
 
