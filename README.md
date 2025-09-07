@@ -17,14 +17,11 @@ ElderSense is a *voice-assisted health companion* for the elderly. It helps care
 ## 🛠 Installation & Setup
 
 ```bash
-# 1. Clone the repository
+1. Clone the Repository
 git clone https://github.com/your-username/ElderSense.git
 cd ElderSense
-
-# 2. (Optional) Create virtual environment
+2. (Optional) Create a Virtual Environment
 python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
 
 # 3. Install dependencies
 pip install speechrecognition pyttsx3 pygame
