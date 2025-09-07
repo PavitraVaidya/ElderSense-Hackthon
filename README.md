@@ -34,10 +34,68 @@ venv\Scripts\activate
 ```bash
 pip install speechrecognition pyttsx3 pygame
 ```
-### 4. Run the application
+### 4. Configure Email Alerts
+
+#### Edit alert_module.py and replace:
+
+SENDER_EMAIL = "your-email@gmail.com"
+SENDER_PASSWORD = "your-app-password"
+CAREGIVER_EMAIL = "caregiver-email@gmail.com"
+
+⚠ Use a Gmail App Password (not your normal password).
+
+### 5. Add Music
+#### Place .mp3 or .wav files inside the music/ folder.
+
+### 6. Run the Project
 ```bash
 python app.py
 ```
+
+---
+
+##📂 Project Structure
+
+ElderSense/
+│── app.py                # Main application
+│── alert_module.py        # Emergency email alerts
+│── database.py            # SQLite DB for medicine tracking
+│── reminder_module.py     # Scheduled reminders
+│── music_module.py        # Music playback
+│── voice_module.py        # Speech recognition + TTS
+│── eldersense.db          # SQLite database (auto-created)
+│── music/                 # Folder containing songs
+│── requirements.txt       # Dependencies
+
+
+---
+
+### 🧪 Example Usage
+
+At 08:30, ElderSense says:
+
+> "⏰ Reminder: Please take your Blood Pressure Tablet. Did you take it?"
+
+If user replies “yes” → medicine logged as ✅ taken.
+If user says “help” → caregiver immediately gets an 📧 emergency email.
+If user says “play music” → plays a random song.
+
+---
+
+### 📦 Dependencies
+
+speechrecognition
+pyttsx3
+pygame
+smtplib (built-in)
+sqlite3 (built-in)
+
+
+### Install everything with:
+```bash
+pip install -r requirements.txt
+```
+
 ##  ▶ Usage
 
 -Example voice commands
