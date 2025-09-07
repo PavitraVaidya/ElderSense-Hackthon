@@ -17,8 +17,15 @@ ElderSense is a *voice-assisted health companion* for the elderly. It helps care
 
 ### 1. Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/your-username/ElderSense.git
 cd ElderSense
 
+### 2. (Optional) Create virtual environment
+# Linux/Mac
+python -m venv venv
+source venv/bin/activate
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
 
