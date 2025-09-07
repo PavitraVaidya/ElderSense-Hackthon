@@ -38,7 +38,7 @@ pip install speechrecognition pyttsx3 pygame
 ```bash
 python app.py
 ```
-## Usage ▶
+##  ▶ Usage
 
 -Example voice commands
 - Remind me to take medicine
@@ -47,28 +47,30 @@ python app.py
 
 ---
 
-🏗 Tech Stack
+## 🏗 Tech Stack
 
-# 1. Programming Language – Python
-# 2. Framework – Flask (for backend)
-# 3. Libraries – SpeechRecognition, pyttsx3, Pygame
-# 4. Database – SQLite (or your preferred DB)
-# 5. Platform – Cross-platform (Windows/Linux/Mac)
-# 6. Cloud Services (Optional) – AWS / GCP for notifications
+1. Programming Language – Python
+2. Framework – Flask (for backend)
+3. Libraries – SpeechRecognition, pyttsx3, Pygame
+4. Database – SQLite (or your preferred DB)
+5. Platform – Cross-platform (Windows/Linux/Mac)
+6. Cloud Services (Optional) – AWS / GCP for notifications
 
 ---
 
-🤝 Contribution
+## 🤝 Contribution
 
-# 1. Fork the repository (on GitHub)
-
+### 1. Fork the repository (on GitHub)
 # 2. Create a new branch
+```bash
 git checkout -b feature-branch
-
+```
 # 3. Make your changes and commit
+```bash
 git commit -m "Added new feature"
-
+```
 # 4. Push the branch
+```bash
 git push origin feature-branch
-
+```
 # 5. Open a Pull Request (on GitHub)
