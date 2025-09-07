@@ -30,20 +30,20 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate
 ```
-# 3. Install dependencies
+### 3. Install dependencies
 ```bash
 pip install speechrecognition pyttsx3 pygame
 ```
-# 4. Run the application
+### 4. Run the application
 ```bash
 python app.py
 ```
-▶ Usage
+##Usage ▶
 
-## Example voice commands
-## - Remind me to take medicine
-## - Play music
-## - Call for help
+# -Example voice commands
+# - Remind me to take medicine
+# - Play music
+# - Call for help
 
 ---
 
