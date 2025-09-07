@@ -36,10 +36,10 @@ pip install speechrecognition pyttsx3 pygame
 ```
 ### 4. Configure Email Alerts
 
--Edit alert_module.py and replace:
-  SENDER_EMAIL = "your-email@gmail.com"
-  SENDER_PASSWORD = "your-app-password"
-  CAREGIVER_EMAIL = "caregiver-email@gmail.com"
+Edit alert_module.py and replace:
+ - SENDER_EMAIL = "your-email@gmail.com"
+  - SENDER_PASSWORD = "your-app-password"
+ -  CAREGIVER_EMAIL = "caregiver-email@gmail.com"
 
 ⚠ Use a Gmail App Password (not your normal password).
 
@@ -75,19 +75,19 @@ At 08:30, ElderSense says:
 
 > "⏰ Reminder: Please take your Blood Pressure Tablet. Did you take it?"
 
--If user replies “yes” → medicine logged as ✅ taken.
--If user says “help” → caregiver immediately gets an 📧 emergency email.
--If user says “play music” → plays a random song.
+- If user replies “yes” → medicine logged as ✅ taken.
+- If user says “help” → caregiver immediately gets an 📧 emergency email.
+- If user says “play music” → plays a random song.
 
 ---
 
 ### 📦 Dependencies
 
--speechrecognition
--pyttsx3
--pygame
--smtplib (built-in)
--sqlite3 (built-in)
+- speechrecognition
+- pyttsx3
+- pygame
+- smtplib (built-in)
+- sqlite3 (built-in)
 
 
 ### Install everything with:
