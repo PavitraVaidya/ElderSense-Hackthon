@@ -36,16 +36,15 @@ pip install speechrecognition pyttsx3 pygame
 ```
 ### 4. Configure Email Alerts
 
-#### Edit alert_module.py and replace:
-
-SENDER_EMAIL = "your-email@gmail.com"
-SENDER_PASSWORD = "your-app-password"
-CAREGIVER_EMAIL = "caregiver-email@gmail.com"
+-Edit alert_module.py and replace:
+  SENDER_EMAIL = "your-email@gmail.com"
+  SENDER_PASSWORD = "your-app-password"
+  CAREGIVER_EMAIL = "caregiver-email@gmail.com"
 
 ⚠ Use a Gmail App Password (not your normal password).
 
 ### 5. Add Music
-#### Place .mp3 or .wav files inside the music/ folder.
+Place .mp3 or .wav files inside the music/ folder.
 
 ### 6. Run the Project
 ```bash
@@ -55,7 +54,7 @@ python app.py
 ---
 
 ##📂 Project Structure
-
+```bash
 ElderSense/
 │── app.py                # Main application
 │── alert_module.py        # Emergency email alerts
@@ -67,7 +66,7 @@ ElderSense/
 │── music/                 # Folder containing songs
 │── requirements.txt       # Dependencies
 
-
+```
 ---
 
 ### 🧪 Example Usage
@@ -76,19 +75,19 @@ At 08:30, ElderSense says:
 
 > "⏰ Reminder: Please take your Blood Pressure Tablet. Did you take it?"
 
-If user replies “yes” → medicine logged as ✅ taken.
-If user says “help” → caregiver immediately gets an 📧 emergency email.
-If user says “play music” → plays a random song.
+-If user replies “yes” → medicine logged as ✅ taken.
+-If user says “help” → caregiver immediately gets an 📧 emergency email.
+-If user says “play music” → plays a random song.
 
 ---
 
 ### 📦 Dependencies
 
-speechrecognition
-pyttsx3
-pygame
-smtplib (built-in)
-sqlite3 (built-in)
+-speechrecognition
+-pyttsx3
+-pygame
+-smtplib (built-in)
+-sqlite3 (built-in)
 
 
 ### Install everything with:
